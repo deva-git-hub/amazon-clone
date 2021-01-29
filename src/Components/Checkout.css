@@ -1,0 +1,17 @@
+.checkout__ad {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+@media only screen and (max-width: 800px) {
+  .checkout {
+    flex-direction: column;
+  }
+}

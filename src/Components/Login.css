@@ -1,0 +1,37 @@
+.login__home {
+  text-decoration: none;
+  align-items: center;
+  margin-left: 65px;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.login__logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+.login {
+  background-color: white;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  min-height: fit-content;
+  overflow: overlay;
+}
+.login__form {
+  background-color: white;
+  height: 100vh;
+  border: 1px solid black;
+  width: max-content;
+  height: fit-content;
+  padding: 20px;
+}
+.login__container {
+}
+
+form > h5 {
+  margin-bottom: 8px;
+}
+form > input {
+  margin-bottom: 6px;
+}
